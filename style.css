@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Victor+Mono&display=swap');
+
+body {
+    font-family: 'Victor Mono', monospace;
+    margin: 0;
+}
+
+.container-one {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/*HEADER*/
+.header {
+    display: flex;
+    padding: 15px;
+    min-width: 1000px;
+
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header .links {
+    margin-left: auto;
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    padding-left: 12px;
+}
+
+/*INTRO*/
+.intro {
+    display: flex;
+    margin: 50px 0px;
+    max-width: 1000px;
+    padding-top: 20px;
+}
+
+/*DESCRIPTION*/
+.description h1 {
+    font-size: 38px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.description p {
+    font-size: 15px;
+    color: #e5e7eb;
+    margin: 0;
+}
+
+.intro .image {
+    padding-left: 32px;
+    max-width: 500px;
+    max-height: 250px;
+}
+
