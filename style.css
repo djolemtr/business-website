@@ -140,7 +140,6 @@ body {
     min-height: 300px;
     justify-content: center;
     align-items: center;
-
 }
 
 .banner .block {
@@ -167,7 +166,6 @@ body {
     font-weight: bold;
 }
 
-
 .banner .block .button {
     display: flex;
     margin-top: 15px;
@@ -191,5 +189,4 @@ body {
     background-color: #1f2937;
     color: white;
     min-height: 100px;
-
 }
