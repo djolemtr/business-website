@@ -6,7 +6,7 @@ body {
 }
 
 .container-one {
-    background-color: #1f2937;
+    background-color: #34202c;
     color: white;
     display: flex;
     flex-direction: column;
@@ -52,19 +52,21 @@ body {
     font-size: 38px;
     font-weight: bold;
     margin: 0;
+    max-width: 500px;
 }
 
 .description p {
     font-size: 15px;
     color: #e5e7eb;
-    margin: 0;
+    margin: 0px 50px 0px 0px;
 }
 
 /*INTRO*/
 .intro .image {
-    padding-left: 32px;
+    
     max-width: 500px;
     max-height: 250px;
+    border-radius: 8px;
 }
 
 .intro .button {
@@ -72,7 +74,7 @@ body {
     margin-top: 15px;
     border-radius: 8px;
     padding: 10px;
-    background-color: #3882f6;
+    background-color: #4b3542;
     color: white;
     justify-content: center;
     text-decoration: none;
@@ -97,11 +99,13 @@ body {
 
 .items .block div {
     border-style: solid;
-    border-color: #3882f6;
+    border-color: #34202c;
+    background-color: #836979;
     border-width: 5px;
     height: 130px;
     width: 130px;
     border-radius: 8px;
+    
 }
 
 .items .block p {
@@ -143,7 +147,7 @@ body {
 }
 
 .banner .block {
-    background-color: #3882f6;
+    background-color: #4b3542;
     border-radius: 8px;
     padding: 50px 0px;
     min-width: 1000px;
@@ -173,7 +177,7 @@ body {
     border-color: white;
     border-style: solid;
     padding: 10px;
-    background-color: #3882f6;
+    background-color: #4b3542;
     color: white;
     justify-content: center;
     text-decoration: none;
@@ -186,7 +190,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #1f2937;
+    background-color: #34202c;
     color: white;
     min-height: 100px;
 }
