@@ -182,3 +182,14 @@ body {
     font-weight: bold;
     min-width: 110px;
 }
+
+/*FOOTER*/
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: white;
+    min-height: 100px;
+
+}
