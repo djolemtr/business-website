@@ -111,7 +111,7 @@ body {
 }
 
 /*QUOTE*/
-.quote{
+.quote {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -120,7 +120,7 @@ body {
     background-color: #e5e7eb;
 }
 
-.quote .text{
+.quote .text {
     max-width: 500px;
     text-align: left;
     font-style: italic;
@@ -128,9 +128,57 @@ body {
     margin: 0;
 }
 
-.quote .author{
+.quote .author {
     min-width: 500px;
     text-align: right;
     font-weight: bold;
-    
+}
+
+/*BANNER*/
+.banner {
+    display: flex;
+    min-height: 300px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.banner .block {
+    background-color: #3882f6;
+    border-radius: 8px;
+    padding: 50px 0px;
+    min-width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.banner .block .text h3,
+.banner .block .text p {
+    margin: 0;
+    color: white;
+}
+
+.banner .block .text p {
+    font-size: 12px;
+}
+
+.banner .block .text h3 {
+    font-weight: bold;
+}
+
+
+.banner .block .button {
+    display: flex;
+    margin-top: 15px;
+    border-radius: 8px;
+    border-color: white;
+    border-style: solid;
+    padding: 10px;
+    background-color: #3882f6;
+    color: white;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: bold;
+    min-width: 110px;
 }
