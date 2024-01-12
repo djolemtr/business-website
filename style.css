@@ -11,6 +11,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    min-height: 500px;
 
 }
 
@@ -59,9 +60,52 @@ body {
     margin: 0;
 }
 
+/*INTRO*/
 .intro .image {
     padding-left: 32px;
     max-width: 500px;
     max-height: 250px;
 }
 
+.intro .button {
+    display: flex;
+    margin-top: 15px;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #3882f6;
+    color: white;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: bold;
+    max-width: 110px;
+}
+
+/*CONTENT*/
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 1000px;
+    margin: 25px 0px;
+}
+
+.content .items {
+    display: flex;
+    max-width: 1000px;
+    gap: 50px;
+}
+
+.items .block div {
+    border-style: solid;
+    border-color: #3882f6;
+    border-width: 5px;
+    height: 130px;
+    width: 130px;
+    border-radius: 8px;
+}
+
+.items .block p {
+    font-size: 10px;
+    max-width: 130px;
+    text-align: center;
+}
