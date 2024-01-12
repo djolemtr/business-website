@@ -109,3 +109,28 @@ body {
     max-width: 130px;
     text-align: center;
 }
+
+/*QUOTE*/
+.quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+    background-color: #e5e7eb;
+}
+
+.quote .text{
+    max-width: 500px;
+    text-align: left;
+    font-style: italic;
+    font-size: 20px;
+    margin: 0;
+}
+
+.quote .author{
+    min-width: 500px;
+    text-align: right;
+    font-weight: bold;
+    
+}
